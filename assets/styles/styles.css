@@ -52,12 +52,13 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all .2s;
 }
+
 
 .accordion-header:hover {
-    color: rgb(153, 10, 153)
+    color: rgb(153, 10, 153);
 }
-
 .accordion-header span {
     font-weight: 700;
     text-align: left;
