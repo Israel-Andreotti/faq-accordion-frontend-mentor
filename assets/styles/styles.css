@@ -51,8 +51,11 @@ body {
     background-color: var(--light-pink);
     border: none;
     border-radius: 10px;
-    transition: .5s ease-in-out;
     cursor: pointer;
+}
+
+.accordion-header:hover {
+    color: rgb(153, 10, 153)
 }
 
 .accordion-header span {
